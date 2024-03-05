@@ -262,7 +262,7 @@ Then, use filter checks to look for AWS EC2 service configuration failures
 
 ![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/06b2af9d-7447-4b03-ad35-0158f9ff722c)
 
-Take a look if the EC2 instance comlies with 	Require IMDSv2 for EC2 Instances
+Take a look if the EC2 instance complies with 	Require IMDSv2 for EC2 Instances
 
 What is the check status ?
 
