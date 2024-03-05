@@ -77,7 +77,7 @@ The password for the user admin found in the file
 
 ## Task Description:
 
-After having found the credentials of a database, it would be good to ask ourselves the question, do we have any other AWS service exposed to the internet?
+After having found the credentials, it would be good to ask ourselves the question, do we have any other AWS service exposed to the internet?
 
 ## Task details:
 
@@ -100,6 +100,7 @@ Look for EC2 instances that do not comply with the “EC2 Instance Not In Public
 ## Flag
 
  EC2 Instance ID  public to internet
+
 
 # Task 4 - Get inside 
 
@@ -183,6 +184,8 @@ The name of the bucket
 
 Try to replace the image left by the cyber attackers with another in order to restore the site and replicate what they did
 
+## Task details
+
 Go to cloudshell 
 
 Download any image. 
@@ -201,6 +204,94 @@ Message from “Click to reveal the flag” button
 
 need help ? you can ask for it
 
+# Task 8 - Looking arround
+
+## Task Description:
+
+So far we have found a couple of misconfigured buckets through which attackers have viewed and modified confidential information in our infrastructure. But a question still remains disturbing: what other AWS services could have been involved?
+
+Cloud Asset Risk Graph can help us verify that information
+
+## Task details:
+
+Go to attack surface discovery
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/30d19d75-6d2e-4ecb-bae7-d488ef75431f)
+
+Click on Cloud Assets, then in asset name you can put the EC2 instance id from Task3 and Task4
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/e7c80425-f851-4a34-ba9c-ec74d6e97138)
+
+Click on the asset name
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/1ffb22a6-f779-48ab-997d-1e10fc30bffd)
+
+The instance has an IAM role assigned, what is the name of the role?
+
+## Flag
+
+IAM role asociated to the EC2 instance
+
+## Hint
+
+need help ? you can ask for it
+
+# Task 9 - Instance Metadata
+
+## Task Description:
+
+You have already found another resource that could have been related to the attack, which is an IAM role associated with an instance.
+
+Now it is important that you know that instance metadata provides valuable information about EC2 instances, allowing to configure and manage it effectively while it's running. This metadata is organized into categories such as hostname, events, and security groups. Additionally, instance metadata enables you to access user data that you defined during the instance launch process. For instance, IAM roles and API keys.
+
+Can you check if the instance is using IMDSv2? IMDSv2 uses session-oriented requests. With session-oriented requests, you create a session token that defines the session duration
+
+## Task details:
+
+Enter to Vision One console
+
+Under Attack Surface Risk Management click on Cloud Posture Overview
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/f3c0d07d-1b1a-4644-a2e4-3a503d2d545c)
+
+Click on “View All Checks”
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/fd4e1fff-e9d0-4d12-8886-013f8e81f699)
+
+Then, use filter checks to look for AWS EC2 service configuration failures
+
+![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/06b2af9d-7447-4b03-ad35-0158f9ff722c)
+
+Take a look if the EC2 instance comlies with 	Require IMDSv2 for EC2 Instances
+
+What is the check status ?
+
+## Flag
+
+Enter the check status
+
+# Task 10 - Instance Metadata
+
+## Task descrption
+
+From the instance metadata you can see the credentials associated with the IAM role assigned to the instance, with this you can know if the attackers have escalated privileges within the AWS console
+
+## Task Details
+
+Enter the AWS console.
+
+Use AWS cloudshell to acces the EC2 instance via SSH. Using curl requests, try to obtain the credentials of the role that the instance has assumed
+
+## Hint 
+
+Take a look at this
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
+
+## Flag
+
+Secret keys from the IAM role asociated to the EC2 instace
 
 
 
