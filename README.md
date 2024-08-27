@@ -118,7 +118,7 @@ Can you see the EC2 isntance information?
 
 Is there any public IP ?
 
-Use AWS cloudshell to acces the EC2 instance via SSH.
+Try to use EC2 instance connect to get inside the server.
 
 ## Flag
 
