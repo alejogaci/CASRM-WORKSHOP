@@ -137,7 +137,7 @@ One of your organization's internal websites has been compromised during the att
 
 ## Task details
 
-Go to the web page url
+Go to the web page url listed on the excel file (It is different for every team)
 
 The site needs a username and password to be accessed, you can try some of the ones you found in Task 1, once you access the site, can you determine what is the name of the file that contains the website image?
 
