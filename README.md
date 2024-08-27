@@ -31,9 +31,10 @@ You have been informed of a security breach of your AWS infrastructure. An indic
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Cloud Posture Overview
+Under Attack Surface Risk Management click on Misconfiguration and Compliance
 
-![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/f3c0d07d-1b1a-4644-a2e4-3a503d2d545c)
+![image](https://github.com/user-attachments/assets/2756c83a-7c19-4a80-8c7f-5fc27fee4b91)
+
 
 Click on “View All Checks”
 
@@ -83,9 +84,10 @@ After having found the credentials, it would be good to ask ourselves the questi
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Cloud Posture Overview
+Under Attack Surface Risk Management click on Misconfiguration and Compliance
 
-![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/f3c0d07d-1b1a-4644-a2e4-3a503d2d545c)
+![image](https://github.com/user-attachments/assets/f8c9571a-d920-464a-8df8-12a5587f3b9a)
+
 
 Click on “View All Checks”
 
@@ -157,9 +159,10 @@ Unfortunately, the s3 bucket that is hosting the website has been configured wit
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Cloud Posture Overview
+Under Attack Surface Risk Management click on Misconfiguration and Compliance
 
-![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/f3c0d07d-1b1a-4644-a2e4-3a503d2d545c)
+![image](https://github.com/user-attachments/assets/55a17d38-4e5d-48f0-9d74-dc0acd2f6753)
+
 
 Click on “View All Checks”
 
@@ -250,9 +253,10 @@ Can you check if the instance is using IMDSv2? IMDSv2 uses session-oriented requ
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Cloud Posture Overview
+Under Attack Surface Risk Management click on Misconfiguration and Compliance
 
-![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/f3c0d07d-1b1a-4644-a2e4-3a503d2d545c)
+![image](https://github.com/user-attachments/assets/bf1cc781-7535-4ab0-80ba-ead853671e7d)
+
 
 Click on “View All Checks”
 
