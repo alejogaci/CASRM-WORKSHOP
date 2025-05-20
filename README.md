@@ -31,9 +31,10 @@ You have been informed of a security breach of your AWS infrastructure. An indic
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Misconfiguration and Compliance
+Under Cloud Security  click on Cloud Risk Management, then enter Misconfiguration and Compliance
 
-![image](https://github.com/user-attachments/assets/2756c83a-7c19-4a80-8c7f-5fc27fee4b91)
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/e3f1498e-ce53-463a-93e7-fd1da0e84d01" />
+
 
 
 Click on “View All Checks”
