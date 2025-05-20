@@ -85,9 +85,9 @@ After having found the credentials, it would be good to ask ourselves the questi
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Misconfiguration and Compliance
+Under Cloud Security  click on Cloud Risk Management, then enter Misconfiguration and Compliance
 
-![image](https://github.com/user-attachments/assets/f8c9571a-d920-464a-8df8-12a5587f3b9a)
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/e3f1498e-ce53-463a-93e7-fd1da0e84d01" />
 
 
 Click on “View All Checks”
