@@ -220,7 +220,8 @@ Cloud Asset Risk Graph can help us verify that information
 
 Go to attack surface discovery
 
-![image](https://github.com/alejogaci/CASRM-WORKSHOP/assets/37232597/30d19d75-6d2e-4ecb-bae7-d488ef75431f)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/0705f514-4b8e-440d-951a-abdb09fbc73e" />
+
 
 Click on Cloud Assets, then in asset name you can put the EC2 instance id from Task3 and Task4
 
