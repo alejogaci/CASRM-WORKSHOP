@@ -189,9 +189,11 @@ Go to Web page url and check that the website is updated with the new image.
 
 Click on “Click to reveal the flag”
 
+Note: Every player has their own bucket, all of them are listed in the Excel file
+
 ## Flag
 
-Message from “Click to reveal the flag” button
+Ask for the Flag
 
 
 # Task 8 - Looking arround
