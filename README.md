@@ -55,11 +55,6 @@ Note: Always use conformity to verify and identify bucket permissions, if you tr
 
 What is the name of the file with sensitive information that was exposed to the Internet ?
 
-## hints
-
-Take a look to this
-
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html#virtual-hosted-style-access
 
 # Task 2 - Being the hacker  
 
@@ -125,9 +120,6 @@ Try to use EC2 instance connect to get inside the server.
 
 Kernel Version of the EC2 isntance
 
-## Hints.
-
-Try to acces to the instance with the usernames and passwords that you found in task 1
 
 # Task 5 - The Bat signal
 
@@ -146,9 +138,6 @@ The site needs a username and password to be accessed, you can try some of the o
 
 Enter the file name
 
-## Hint
-
-From web browser, view source code
 
 # Task 6 - Being the hacker
 
@@ -204,9 +193,6 @@ Click on “Click to reveal the flag”
 
 Message from “Click to reveal the flag” button
 
-## Hint
-
-need help ? you can ask for it
 
 # Task 8 - Looking arround
 
@@ -237,9 +223,6 @@ The instance has an IAM role assigned, what is the name of the role?
 
 IAM role asociated to the EC2 instance
 
-## Hint
-
-need help ? you can ask for it
 
 # Task 9 - Instance Metadata
 
@@ -255,9 +238,10 @@ Can you check if the instance is using IMDSv2? IMDSv2 uses session-oriented requ
 
 Enter to Vision One console
 
-Under Attack Surface Risk Management click on Misconfiguration and Compliance
+Under Cloud Security  click on Cloud Risk Management, then enter Misconfiguration and Compliance
 
-![image](https://github.com/user-attachments/assets/bf1cc781-7535-4ab0-80ba-ead853671e7d)
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/e3f1498e-ce53-463a-93e7-fd1da0e84d01" />
+
 
 
 Click on “View All Checks”
@@ -288,16 +272,11 @@ Enter the AWS console.
 
 Use AWS cloudshell to acces the EC2 instance via SSH. Using curl requests, try to obtain the credentials of the role that the instance has assumed
 
-## Hint 
 
-Take a look at this
-
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
 
 ## Flag
 
-Secret keys from the IAM role asociated to the EC2 instace
+AccessKeyId from the IAM role asociated to the EC2 instace
 
 
 
